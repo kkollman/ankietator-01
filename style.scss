@@ -1,0 +1,33 @@
+.question {
+  width: 90%;
+  padding: 25px;
+  margin-bottom: 50px;
+  background-color: moccasin;
+  font-family: Lato;
+}
+
+label {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(98, 179, 113);
+  div {
+    font-size: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 5px;
+    padding: 5px;
+    background: rgba(223, 143, 49, 0.57);
+  }
+}
+
+.education, .gender, .location, .age {
+  margin: 10px;
+}
+
+.answers {
+  div:not(.all) {
+    display: none;
+  }
+}

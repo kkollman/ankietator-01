@@ -1,0 +1,36 @@
+.question {
+  width: 90%;
+  padding: 25px;
+  margin-bottom: 50px;
+  background-color: moccasin;
+  font-family: Lato; }
+
+label {
+  margin-top: 25px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #62b371; }
+  label div {
+    font-size: 10px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    padding: 5px;
+    background: rgba(223, 143, 49, 0.57); }
+
+.education, .gender, .location, .age {
+  margin: 10px; }
+
+.answers div:not(.all) {
+  display: none; }
